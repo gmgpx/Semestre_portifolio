@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8DFCA; 
+}
+  
+  #welcome-container {
+    background-color: #1A4D2E;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: Bungee Spice, sans-serif;
+    font-size: x-large;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4F6F52;
+    padding: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"],
+  .form-container button {
+    margin-right: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 8px 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #1A4D2E;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #75A47F;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th,
+  td {
+    border: 1px solid #1A4D2E;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4F6F52;
+  }
+  

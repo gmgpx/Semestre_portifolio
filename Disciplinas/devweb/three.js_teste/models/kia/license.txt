@@ -1,0 +1,11 @@
+Model Information:
+* title:	[Low Poly] Kia Ceed 2013 SW
+* source:	https://sketchfab.com/3d-models/low-poly-kia-ceed-2013-sw-0845c8e6907f43d781fda96217823132
+* author:	Skrekliam (https://sketchfab.com/Skrekliam)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "[Low Poly] Kia Ceed 2013 SW" (https://sketchfab.com/3d-models/low-poly-kia-ceed-2013-sw-0845c8e6907f43d781fda96217823132) by Skrekliam (https://sketchfab.com/Skrekliam) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

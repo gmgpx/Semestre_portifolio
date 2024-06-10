@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1º Semestre ADS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+
+        <a href="https://www.linkedin.com/in/gustavo-monteiro-727450210/">
+        <img src="./assets/qsrwzort-removebg-preview.png" alt="logo" class="logo"></a>
+        <h1><a href="https://github.com/gmgpx">1º Semestre ADS</a></h1>
+        
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+
+    </header>
+
+    <nav>
+        <a href="./Disciplinas/Automacao/semaforo.mp4" target="iframe" 
+        class="industry"
+
+        data-description-1="A automação industrial abrange o uso de tecnologias e sistemas de controle para otimizar processos industriais. 
+        Inicialmente, utilizamos Arduino e ESP32 para entender os princípios básicos de automação e controle. 
+        Esses microcontroladores são programados para automatizar tarefas simples, coletar dados de sensores e controlar atuadores na indústria ou correlatas. 
+        Posteriormente, seremos introduzidos aos Controladores Lógicos Programáveis (CLPs),
+        que são mais robustos e utilizados em ambientes industriais para controlar máquinas e processos mais complexos." 
+
+        data-description-2="Trabalhamos em um projeto de semáforo em duas etapas no TinkerCAD, 
+        utilizando LEDs para simular tanto os sinais para carros quanto para pedestres. 
+        Definimos tempos (delays) e sincronizamos os sinais para evitar acidentes, 
+        o que amplificou nosso raciocínio lógico e crítico, assim como na vida real." 
+
+        data-description-3="Começamos a usar em nossos cenários no tinkercad o popular display de 7 segmentos
+        , cada segmento é etiquetado de 'a' a 'g', e em alguns casos, um ponto decimal ('dp') é adicionado, 
+        é necessário adicionar um resistor para limitar a corrente evitando possíveis falhas no circuito. 
+        Também começamos a utilizar estruturas de repetição (for)
+        para instanciar os pinos das entradas e saidas com mais eficiência, utilizamos funções fora do 'Loop' para habituar esse conceito,
+        utilizado principalmente para evitar problemas futuros com o aumento da complexidade do código e facilitar a manutenção do mesmo." 
+
+        data-description-4="Também utilizamos em nossos projetos o potênciometro que funciona como um resistor ajustável, 
+        permitindo variar sua resistência elétrica de acordo com a posição do contato rotativo, assim 'controlando' a 
+        luminosidade dos led's. Também utilizamos o 'buzzer', sendo usado para fornecer feedback audível, 
+        como alarmes, timers e sinais de confirmação." 
+
+        data-description-5="Após esse período utilizando o Arduino Uno e TinkerCAD como plataforma, fizemos a passagem para o 
+        ESP32, um microcontrolador versátil e poderoso com Wi-Fi e Bluetooth integrados, após a introdução de comandos e
+        alguns exercícios para se habituar a esse novo microcontrolador, realizamos uma atividade avaliativa." 
+
+        data-description-6="Neste sistema, ao iniciar, o display LCD exibe uma tela de boas-vindas e um menu com as opções 'Contar ao Clicar', 
+        'Relógio' e 'Zerar Dados'. O botão azul avança no menu e o botão amarelo retorna. 
+        Na 'Etapa 02 (Contar ao Clicar)'', 
+        a cada clique no botão azul, o contador incrementa e exibe o valor na tela,
+        o botão amarelo zera o contador e o botão vermelho retorna ao menu inicial. 
+        Na 'Etapa 03 (Relógio)'', o relógio começa em 00:00:00 e avança de 1 em 1 segundo; 
+        um clique no azul acelera o tempo para 250ms por segundo, 
+        o amarelo retorna ao tempo normal e o vermelho sai do sistema.
+        Na 'Etapa 04 (Zerar Dados)', a mensagem 'Deseja zerar todos os dados?' é exibida;
+        pressionar o botão verde por mais de 3 segundos zera os dados,
+        enquanto o botão vermelho cancela e retorna ao menu." 
+
+
+
+        data-iframe2-src="./disciplinas/automacao/t1.png"
+
+        data-iframe3-src="./disciplinas/automacao/tinkercad_sete.png"
+
+        data-iframe4-src="./disciplinas/automacao/esp32.png"
+
+
+        src-link="https://www.tinkercad.com/things/lCQJY2Rk1qD-copy-of-semaforo/editel"
+        src-link2="https://www.tinkercad.com/things/1PZJInK1Qsy-display/editel"
+        src-link3="https://github.com/gmgpx/semaforo"
+
+
+        onclick="select(event)">Industry Automation</a>
+
+
+        <a href="./Disciplinas/devweb/Calculadora/calculadora.html" target="iframe" 
+        class="devweb" 
+
+        data-description-1="O Desenvolvimento Web envolve a criação e manutenção de sites e aplicações web utilizando HTML, 
+        CSS e JavaScript. 
+        Os alunos aprendem a construir interfaces interativas e responsivas com HTML para a estrutura, 
+        CSS para o estilo e design, e JavaScript para adicionar funcionalidades dinâmicas. 
+        Esses conhecimentos capacitam os alunos a desenvolverem soluções completas e eficientes para a web, 
+        focando nas melhores práticas e tecnologias essenciais do desenvolvimento front-end."
+
+        data-description-2="Inicialmente fomos introduzidos a linguagem HTML, linguagem de marcação utilizado como estrutura base de um site, seu 'esqueleto',
+        fomos apresentados as tags ou elementos e suas respectivas funções, inclusive a estruturação semântica (Header, Navbar, Main ou body e Footer).
+        Logo após isso apredemos a estilizar esses elementos(tags) a partir do CSS, utilizado para estilizar documentos HTML ou XML
+        , por exemplo, é possível alterar a fonte de um documento utilizando a propriedade 'font-family', 
+        definindo Arial para o corpo do texto e 'Courier New' para os cabeçalhos. 
+        Para modificar as cores de fundo, usa-se a propriedade 'background-color', 
+        como definir um fundo cinza claro para a página e um fundo verde para o cabeçalho com texto branco. 
+        Adicionar sombras pode ser feito com 'box-shadow' para caixas e 'text-shadow' para textos, 
+        criando profundidade e destaque. Pequenas animações, como o efeito 'hover', 
+        podem ser implementadas com a propriedade 'transition', 
+        permitindo mudanças suaves de cor ao passar o mouse sobre um botão, 
+        tornando a interação mais dinâmica e atraente."
+         
+        data-description-3="Em busca de aprofundar mais nesses conhecimentos fundamentais,
+        fornecidos pela realização de projetos práticos pela faculdade, como a calculadora, tela de login, lista To/Do, estruturação DOM e editor de código online.
+        Também me dediquei fora do horário em alguns projetos interessantes, 
+        como carroséis interativos, jogos no navegador (Como visto acima anteriormente), 'landig pages', 
+        manipulação de objetos 3d com a biblioteca Three.js,
+        como ChainZoku.io, site de NFT's que permite criar e customizar seu próprio Zoku (link abaixo!), 
+        além de uma pokédex utilizando a 'PokeAPI'."
+          
+        data-description-4="Após esse período, começamos a utilizar e aprofundar mais em JavaScript, 
+        já utilizavamos mas não com tanta frequência ou conhecimento, 
+        essa que é uma linguagem de programação amplamente utilizada no desenvolvimento web para adicionar interatividade e dinamismo às páginas. 
+        Com JS, é possível manipular elementos HTML, 
+        responder a eventos do usuário (como cliques e movimentos do mouse), validar formulários, 
+        criar animações, entre outras funcionalidades. 
+        Ele é executado no navegador do cliente, permitindo que as páginas web sejam mais dinâmicas e responsivas, 
+        melhorando a experiência do usuário." 
+ 
+        data-description-5="Sem dúvidas a disciplina que mais me despertou interesse, ela indaga não apenas as linguagens e sua sintaxe ou semântica, 
+        mas também enquadra UI (User Interface) que se concentra no design visual e na interação dos elementos em um produto digital, como botões e layouts.
+        UX (User Experience) abrange a experiência geral do usuário ao usar o produto, considerando usabilidade, eficiência e satisfação. 
+        Ambas são cruciais para criar produtos digitais atraentes, intuitivos e eficazes." 
+ 
+        data-description-6="Como atividade final da disciplina, fomos encarregados de criar um portifólio contendo, 
+        todo conteúdo apresentado em cada disciplina ministrada no nosso primeiro semestre de Análise e Desenvolvimento de Sistemas.
+        Utilizando todos os conceitos apresentados em Desenvolvimento Web, criei esse portifólio, estruturado com html, 
+        utilizando <div> para separar as descrições de cada conteúdo a ser apresentado, para destacar e dar interatividade ao site, 
+        utilizei <iframes> e <a> para apresentar os projetos da disciplina (tanto condizentes ao curso quanto pessoais), 
+        CSS para estilizar, tendo uma 'root' (diretório principal de todo elemento HTML na qual os elementos da página são descendentes) primária de cores e outra para o modo 'dark' e posicionar as '<div>', '<a>', '<iframe>', '<h1>' e '<p>' colocando um efeito de 'hover', 
+        a tudo que possa ser clicável. O Javascript tem a responsabilidade de trocar o tema da página, pegando todos elementos HTML, 
+        'const $html = document.querySelector('html')' e trocar quando o checkbox mudar de estado, 
+        também tem a função de trocar o texto de todos os parágrafos (<p>) com a descrição correspondente de cada disciplina 
+        'var descricaoLink = event.target.getAttribute('data-description');'." 
+ 
+ 
+ 
+         data-iframe2-src="./disciplinas/devweb/jogo_mario"
+ 
+         data-iframe3-src="./disciplinas/devweb/pokedex"
+ 
+         data-iframe4-src="./disciplinas/devweb/three.js_teste"
+ 
+ 
+         src-link="https://github.com/gmgpx/DevWeb"
+         src-link2="https://chainzoku.io"
+         src-link3="https://threejs.org"
+
+        onclick="select(event)">Dev Web</a>
+
+
+        <a href="./Disciplinas/devweb/excel/index.html" target="iframe" class="database" 
+        data-description-1="O estudo de bancos de dados é fundamental para a formação de profissionais aptos a gerenciar, 
+        organizar e manipular grandes volumes de informações de maneira eficiente. 
+        O currículo aborda desde os conceitos básicos de modelagem de dados, 
+        utilizando diagramas entidade-relacionamento (ER), 
+        até a implementação prática em sistemas gerenciadores de banco de dados (SGBDs), como MySQL e PostgreSQL, 
+        além de bancos de dados NoSQL como MongoDB."
+
+        data-description-2="Primeiramente, fomos introduzidos ao pgAdmin, 
+        instalando o aplicativo e configurando-o para gerenciar bancos de dados PostgreSQL. 
+        Durante as aulas, aprendemos a criar, 
+        manipular e consultar bancos de dados utilizando a interface gráfica do pgAdmin, 
+        o que facilitou o entendimento dos conceitos de banco de dados relacional. 
+        Além disso, foram abordados comandos SQL essenciais, como 'CREATE TABLE' para criar novas tabelas, 
+        'INSERT INTO' para inserir dados nas tabelas, 'SELECT' para consultar dados, 
+        'UPDATE' para atualizar dados existentes, 'DELETE' para remover dados, 
+        'ALTER TABLE' para modificar a estrutura das tabelas e 'DROP TABLE' para excluir tabelas. 
+        Esses comandos foram praticados diretamente no pgAdmin, 
+        reforçando a compreensão e aplicação dos conceitos teóricos assim como mostrado no vídeo demonstrativo abaixo." 
+
+        data-description-3="Para aprofundarmos esses conceitos, 
+        realizamos duas listas de exercícios elaboradas pelo Profº Cainã (Pode ser acessado pelo link abaixo), 
+        resolvendo variados problemas para atender os requisitos de cada aplicação do banco de dados elaborado, 
+        após isso povoamos para realizar algumas amostragens da tabela, sendo introduzidos aos comandos 'Inner Join' e 'Cross Join', 
+        para uma amostragem mais ampla dos dados. 
+        Também fomos introduzidos ao Atlas MongoDB, 
+        configurando a plataforma Atlas para gerenciar bancos de dados NoSQL. 
+        Durante as aulas, aprendemos a criar, 
+        manipular e consultar bancos de dados utilizando a interface gráfica do Atlas, 
+        o que facilitou o entendimento dos conceitos de banco de dados não-relacional."
+          
+        data-description-4="Além disso, 
+        foram abordados comandos essenciais como 'db.createCollection' para criar novas coleções de documentos, 
+        'db.collection.insert()' para inserir dados nas coleções, 
+        'db.collection.find' para consultar dados, 'db.collection.update()' para atualizar dados existentes, 
+        'db.collection.delete()' para remover dados e 'db.collection.drop()' para excluir coleções." 
+ 
+        data-description-5="Após praticarmos todos esses conceitos fomos direcionados a realizar nosso primeiro projeto utilizando banco de dados relacionais, 
+        confira a proposta:
+
+        Você foi contratado para projetar o banco de dados relacional de um sistema educacional para uma universidade. 
+        O sistema deve coletar as informações como nome, cpf, idade, endereço, contato (email ou telefone, ou ambos).
+        Além disso o sistema deve gerar um RA (Registro de Aluno) para cada aluno. 
+        Cada curso ofertado no sistema é associado a um departamento da instituição de ensino, 
+        que agrupa os cursos em áreas. Áreas de atuação da universidade: Saúde, Tecnologia, Engenharia, Humanas, etc.
+        Cada curso possui suas respectivas disciplinas, sendo algumas optativas.
+        Algumas disciplinas podem pertencer a mais de um curso, como por exemplo Cálculo que é comum a todos os cursos de engenharia. 
+        Este sistema permite que o aluno, após matriculado em um curso, monte sua própria grade, escolhendo as disciplinas disponíveis no semestre corrente do curso ao qual foi matriculado. 
+        Cada aluno pode se matricular em mais de um curso. 
+        A instituição deve manter os dados de seus alunos na plataforma mesmo após sua colação de grau." 
+ 
+        data-description-6="Primeiramente criamos seu diagramaER, 
+        cada aluno interpretou e teve sua própria resolução do problema, 
+        utilizando de múltiplas tabelas para atender os requisitos propostos, 
+        para povoar pedi para o ChatGPT inserir dados de pessoas famosas, 
+        como nomes, datas de nascimento e endereços, 
+        você pode ver o projeto completo e as listas de exercícios no link do GitHub abaixo." 
+ 
+ 
+ 
+        data-iframe2-src="./disciplinas/database/createtable.mp4"
+ 
+        data-iframe3-src="./disciplinas/database/mongodb1.png"
+ 
+        data-iframe4-src="./disciplinas/database/diagramaER.png"
+ 
+ 
+        src-link="https://cainaantunes.notion.site/Banco-de-Dados-12203c13265e4413866aac27bacc4812"
+        src-link2="https://github.com/gmgpx/DataBase/tree/main/Lista%202%20-%20DataBase"
+        src-link3="https://github.com/gmgpx/DataBase"
+
+        onclick="select(event)">Data Base</a>
+
+
+        <a href="./Disciplinas/LP/Java Programmers Be Like.mp4" target="iframe"
+        class="language" 
+
+        data-description-1="Somos introduzidos a diversas linguagens de programação essenciais para o desenvolvimento de software entre as disciplinas, 
+        com um foco especial em Java em Linguagens da Programação. Java é amplamente utilizada devido à sua robustez,
+        portabilidade e aplicabilidade em desenvolvimento de aplicações empresariais, 
+        desktop e Android. Além de Java, o currículo pode incluir linguagens como Python, C# e JavaScript. 
+        A ênfase em Java prepara os alunos para criar soluções robustas e escaláveis, 
+        enquanto a exposição a outras linguagens proporciona uma base versátil, 
+        essencial para enfrentar diversos desafios tecnológicos no mercado de trabalho."
+
+        data-description-2="Aprendemos conceitos básicos como a estrutura de um código Java, 
+        que envolve a organização em classes e métodos, 
+        com a função main servindo como ponto de entrada. 
+        As entradas e saídas de dados pelo console são essenciais para interagir com o usuário, por exemplo, 
+        usamos 'System.out.println' para exibir informações na tela e 'Scanner' para receber dados do usuário. 
+        As estruturas de decisão, como 'if', 'else if' e 'else', 
+        permitem que o programa tome diferentes caminhos com base em condições específicas. 
+        Já as estruturas de repetição, como loops 'for' e 'while', 
+        são utilizadas para executar um bloco de código várias vezes, 
+        facilitando tarefas repetitivas. 
+        O comando 'switch case' é útil para simplificar a seleção entre várias opções possíveis, 
+        tornando o código mais legível e organizado. Por exemplo, 
+        o switch pode ser usado para executar diferentes blocos de código com base no valor de uma variável. 
+        Esses conceitos são fundamentais para construir uma base sólida em programação, 
+        permitindo a criação de algoritmos eficientes e funcionais." 
+
+        data-description-3="Aprofundando nos comandos e algoritmos básicos de Java, 
+        tivemos uma introdução sobre Programação Orientada a Objetos (POO), 
+        que é um método de programação baseado em 'objetos'. 
+        Um objeto é uma instância de uma classe, 
+        que define suas propriedades (atributos) e comportamentos (métodos). 
+        Facilita a organização e reutilização do código. Em Java, 
+        criamos classes usando a palavra-chave class, instanciamos objetos com new, 
+        e usamos modificadores de acesso como public e private para controlar a visibilidade dos atributos e métodos. 
+        Permite encapsular dados, 
+        herdar características de outras classes e usar polimorfismo para tratar objetos de diferentes classes de forma uniforme."
+
+        data-description-4="A POO é fundamentada em quatro pilares principais como citado anteriormente: encapsulamento, 
+        herança, polimorfismo e abstração. 
+        O encapsulamento envolve esconder os detalhes internos de um objeto e expor apenas o que é necessário, 
+        geralmente utilizando modificadores de acesso como 'private' para atributos e 'public' para métodos de acesso geral
+        (get e set). A herança permite que uma classe (subclasse ou filho) herde propriedades e métodos de outra classe 
+        (superclasse ou pai), utilizando a palavra-chave 'extends' herdando atributos e métodos da classe ascendente. 
+        O polimorfismo permite que um método tenha diferentes comportamentos com base no objeto que o chama, 
+        facilitado pelo uso de classes e interfaces. 
+        A abstração foca em esconder os detalhes complexos e expor apenas as funcionalidades essenciais, 
+        frequentemente usando classes abstratas (abstract) e interfaces. 
+        Esses pilares trabalham juntos para criar sistemas mais organizados, reutilizáveis e fáceis de manter"
+
+        data-description-5="Como projeto final da disciplina, 
+        fomos instruídos a criar uma tela de bloqueio semelhante às antigas de DVD, usando JavaFX. 
+        Desenvolvemos uma tela com um logotipo do SENAI e formas geométricas criadas a partir da superclasse 'Shape', 
+        que se move continuamente e muda de direção ao atingir as bordas, imitando os screensavers de DVD."
+
+        data-description-6="Utilizamos conceitos de Programação Orientada a Objetos (POO), 
+        criando classes para formas geométricas e utilizando o método 'draw' para desenhá-las. 
+        Aplicamos encapsulamento para proteger os atributos das formas, 
+        herança para compartilhar características comuns entre a superclasse 'Shape', 
+        polimorfismo para garantir que o método draw funcione uniformemente, 
+        e abstração para simplificar a interação entre os componentes. 
+        Esse projeto consolidou os conceitos aprendidos durante o curso, 
+        resultando em uma aplicação visualmente interessante e funcional."
+
+       data-iframe2-src="./Disciplinas/LP/java.mp4"
+       data-iframe3-src="./Disciplinas/LP/poo.mp4"
+       data-iframe4-src=""
+
+       src-link="https://github.com/gmgpx/Listas_LP/tree/main/Listas"
+       src-link2="https://www.youtube.com/watch?v=pbb0jzXt_xA&t=38s"
+       src-link3="https://github.com/gmgpx/Listas_LP"
+
+        onclick="select(event)">Programation Languages</a>
+
+
+        <a href="./projetos/data.png" target="iframe"
+        class="datascience" 
+
+        data-description-1="A ciência de dados é uma área fundamental que prepara os alunos para analisar e interpretar grandes volumes de dados. 
+        Utilizando principalmente o Google Colab em Python, os alunos aprendem a coletar, 
+        limpar e analisar dados, além de aplicar técnicas de aprendizado de máquina e visualização de dados. 
+        Ferramentas e bibliotecas como Pandas,
+        NumPy e Matplotlib são amplamente utilizadas para a manipulação e análise de dados."
+
+        data-description-2="Primeiramente estudamos os três tipos principais de amostragem em análise de dados: 
+        a aleatória simples, que garante representatividade sem viés na seleção, 
+        a sistemática, útil para populações organizadas em ordem específica, 
+        e a estratificada, que captura variações entre grupos homogêneos da população. 
+        A escolha depende dos objetivos da pesquisa e da necessidade de representatividade dos grupos na amostra." 
+
+        data-description-3="Continuando nos conceitos, aprofundamos nos termos de Moda, 
+        Mediana e Média são medidas de tendência central usadas para descrever conjuntos de dados. 
+        A moda é o valor mais frequente, como 4 em 2, 4, 4, 4, 6, 7, 9. 
+        A mediana é o valor central que divide o conjunto em duas partes iguais, 
+        para 3, 5, 7, 9, 11 a mediana é 7. 
+        A média nada mais é que a soma dos valores dividida pelo número de observações (n), em 2, 4, 6, 8, 10 a média é 6. 
+        Em conjuntos com valores atípicos, como 1, 2, 2, 3, 9, a média (3,4) pode ser influenciada pelos 'outliers',
+        enquanto a mediana (2) e a moda (2) não são."
+
+        data-description-4="Também conhecemos os termos percentil e quartil que são medidas que ajudam a entender a distribuição dos dados. 
+        Percentis dividem os dados em 100 partes iguais, indicando a posição relativa, 
+        como o 90º percentil, que indica que 90% dos valores estão abaixo desse ponto, por exemplo, 
+        se um teste tem o 90º percentil em 85, isso significa que 90% dos alunos pontuaram abaixo de 85. 
+        Quartis dividem os dados em quatro partes iguais: o primeiro quartil (Q1) é o 25º percentil, 
+        o segundo quartil (Q2) é a mediana (50º percentil) e o terceiro quartil (Q3) é o 75º percentil, por exemplo, 
+        se Q1 é 25, Q2 será 50 e Q3 conquentemente 75 em um conjunto de dados com 100 números. 
+        Medidas de dispersão, como amplitude, variância e desvio padrão, 
+        quantificam a variação dos dados em relação à média, ajudando a entender a consistência dos dados, 
+        por exemplo, um conjunto de dados com uma média de 50 e um desvio padrão de 5 é mais consistente do que outro conjunto com a mesma média e um desvio padrão de 15."
+
+        data-description-5="Avançando nos tópicos, entramos em Teste de Hipóteses,
+        é uma maneira de verificar se uma suposição sobre uma população está correta usando dados de uma amostra. 
+        No teste Qui-quadrado (χ²), por exemplo, 
+        podemos verificar se a preferência musical (Rock ou Pop)
+        é independente do gênero comparando as frequências observadas com as esperadas."
+
+        data-description-6="No teste 'Kolmogorov-Smirnov', comparamos a distribuição dos dados de uma amostra com uma distribuição teórica. 
+        O teste 'Shapiro-Wilk' verifica se os dados seguem uma distribuição normal, ideal para amostras de pequena proporção. 
+        O teste 'Anderson-Darling', tem semelhança ao de Kolmogorov-Smirnov, 
+        sendo mais preciso em questão de detectar desvios, especialmente nas extremidades da distribuição.
+        (Acesse o Colab com todo conteúdo no link abaixo)"
+
+        data-iframe2-src="./Disciplinas/CD/amostra.mp4"
+        data-iframe3-src="./Disciplinas/CD/moda.mp4"
+        data-iframe4-src="./Disciplinas/CD/qui.mp4"
+ 
+        src-link="https://colab.research.google.com/drive/18WzeWPP2-x5-GQU0mE5odHPTIsinp9Tf#scrollTo=3ZrHtb9GtnVr"
+        src-link2="https://cainaantunes.notion.site/Ci-ncia-de-Dados-c459b22671ae4eb28b4039c50750d5f6"
+        src-link3="https://colab.research.google.com/drive/1soJl0sY0soNV2ohr02NayKC3RmvBtK24"
+        onclick="select(event)">Data Science</a>
+
+    </nav>
+
+    <main>
+        <div class="intro">
+            <h1>Oque aprendi?</h1>
+            <p>Neste projeto irei demonstrar na prática, 
+            atividades, desafios e avaliações no meu primeiro semestre de Análise e Desenvolvimento de Sistemas pelo 
+            <a href="https://sp.senai.br/unidade/sorocaba/">SENAI Gaspar Ricardo Junior</a> juntamente a 
+            <a href="https://www.linkedin.com/company/2rp-net/mycompany/">2RP Net.</a></p>
+        </div>
+        <div class="descricao">
+            <h1>Introdução</h1>
+            <p class="detalhe">Escolha uma disciplina no Navbar!</p>
+        </div>
+
+        <iframe src="" name="iframe" frameborder="0" muted></iframe>
+
+        <div class="descricao" id="descricao2">
+            <h1>Descrição</h1>
+            <p class="detalhe2">Escolha uma disciplina no Navbar!</p>
+            <br>
+            <a class="link-1" href="">Acesse o projeto aqui.</a>
+        </div>
+
+        <iframe class="conteudo2" src="" name="iframe2" frameborder="0"></iframe>
+
+        <div class="alinhar">
+            <div class="descricao" id="descricao3">
+                    <h1>Evoluindo...</h1>
+                    <p class="detalhe3">Escolha uma disciplina no Navbar!</p>
+                    <br>
+                    <a class="link-2" href="">Acesse o projeto aqui.</a>
+            </div>
+                <iframe class="conteudo3" src="" name="iframe3" frameborder="0"></iframe>
+        </div>
+
+        <div class="descricao" id="descricao4">
+            <p class="detalhe4">Escolha uma disciplina no Navbar!</p>
+        </div>
+        
+        <div class="descricao" id="descricao5">
+            <h1>Projetos</h1>
+            <p class="detalhe5">Escolha uma disciplina no Navbar!</p>
+        </div>
+
+        <iframe class="conteudo4" src="" name="iframe4" frameborder="0"></iframe>
+
+        <div class="descricao" id="descricao6">
+            <p class="detalhe6">Escolha uma disciplina no Navbar!</p>
+            <br>
+            <a class="link-3" href="">Acesse o projeto aqui.</a>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright GMdesign &copy 2024</p>
+            <p>by Gustavo Monteiro</p>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

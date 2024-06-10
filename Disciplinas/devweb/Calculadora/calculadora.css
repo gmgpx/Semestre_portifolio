@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.botao{
+    /*grid divide igualmente, em colunas no caso,REPETINDO e em QUATRO COLUNAS.
+     display: grid; 
+     grid-template-columns: repeat(4, 1fr);*/ 
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgba(85, 70, 100, 0.4);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#resultado{
+    background-color: rgba(255, 255, 255, 1);
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: rgba(31, 31, 31, 0.8);
+    text-align: right;
+    padding: 5px;
+}

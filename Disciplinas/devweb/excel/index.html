@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+
+<title>Jurassic World</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome-container">
+    <h1>Banco de dados</h1>
+    <h2>on-line</h2>
+  </div>
+  <div class="form-container">
+    <input type="text" id="username" placeholder="Nome do usuário">
+    <input type="password" id="password" placeholder="Senha">
+    <button onclick="createOrUpdate()">Criar/Atualizar</button>
+    <button onclick="search()">Buscar</button>
+  </div>
+  <div id="data-container">
+    <table id="user-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome do usuário</th>
+          <th>Senha</th>
+          <th>Opções</th>
+        </tr>
+      </thead>
+      <tbody id="user-table-body">
+        <!-- Data rows will be inserted here dynamically -->
+      </tbody>
+    </table>
+    <p id="no-data-msg" style="display: none;">Nenhum usuário foi cadastrado.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
